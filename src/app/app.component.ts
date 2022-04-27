@@ -12,6 +12,9 @@ export class AppComponent {
     { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
     { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+    { title: 'Alerta', url: '/alert', icon: 'alert-circle' },
+    { title: 'Action Sheet', url: '/actionsheet', icon: 'alert' },
+    { title: 'Badge', url: '/badge', icon: 'list' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
