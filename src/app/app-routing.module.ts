@@ -34,6 +34,10 @@ const routes: Routes = [
   {
     path: 'card02',
     loadChildren: () => import('./pages/card02/card02.module').then( m => m.Card02PageModule)
+  },
+  {
+    path: 'input',
+    loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
   }
 ];
 

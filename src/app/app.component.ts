@@ -18,6 +18,7 @@ export class AppComponent {
     { title: 'Card', url: '/card', icon: 'newspaper' },
     { title: 'Checkbox', url: '/checkbox', icon: 'checkbox' },
     { title: 'Cardum', url: '/card', icon: 'newspaper' },
+    { title: 'Input', url: '/input', icon: 'document-text' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
