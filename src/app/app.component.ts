@@ -19,6 +19,8 @@ export class AppComponent {
     { title: 'Checkbox', url: '/checkbox', icon: 'checkbox' },
     { title: 'Cardum', url: '/card', icon: 'newspaper' },
     { title: 'Input', url: '/input', icon: 'document-text' },
+    { title: 'DateTime', url: '/datetime', icon: 'timer' },
+    { title: 'Infinit Scroll', url: '/infinitscroll', icon: 'infinite' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
